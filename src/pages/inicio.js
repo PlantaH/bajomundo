@@ -2,7 +2,7 @@ import React from 'react';
 const Inicio = () =>{
   return (
     <div>
-      <h3>BajoMundo</h3>       
+      <h3>BajoMundo pagina de inicio</h3>       
     </div>
   );
 }
