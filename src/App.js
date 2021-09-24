@@ -1,17 +1,23 @@
  
 
 import './App.css'; 
-
-import Navbar from "./components/Navbar/Navbar"
+import "bootstrap/dist/css/bootstrap.min.css";
+import NavBar from "./components/NavBar/NavBar"
 import Footer from './components/Footer/Footer';
-import Main from './components/Main/Main';
+import ItemListContainer from './components/ItemListContainer/ItemListContainer';
+import Parametros from './components/Parametros/Parametros';
 
 function App() {
+  let nombre = "hernan"
+  
   return (
     <body>   
-             
-      <Navbar />
-  
+      <NavBar />
+      <ItemListContainer nombre={nombre}/>
+      { 
+      /*<Parametros nombre={nombre} edad={12} mayorDeEdad={false} /> */
+      }
+      <Footer/>
     </body>
   );
 }
