@@ -7,7 +7,7 @@ const CartWidget = () => {
     return (
         <div>
             <Button variant="dark">
-                Carrito <ImCart className="me-2" />
+                <ImCart className="me-2" />
                 <Badge text="dark" bg="light">
                 0
                 </Badge>
