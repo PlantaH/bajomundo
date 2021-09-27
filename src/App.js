@@ -1,12 +1,10 @@
  
-
 import './App.css'; 
 import "bootstrap/dist/css/bootstrap.min.css";
 import NavBar from "./components/NavBar/NavBar"
 import Footer from './components/Footer/Footer';
 import ItemListContainer from './components/ItemListContainer/ItemListContainer';
-import Parametros from './components/Parametros/Parametros';
-
+ 
 function App() {
   let nombre = "hernan"
   
