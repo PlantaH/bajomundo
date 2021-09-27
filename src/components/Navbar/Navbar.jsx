@@ -4,7 +4,7 @@ import {  Navbar,  Container,  Nav} from "react-bootstrap";
 import CartWidget from "../CartWidget/CartWidget";
 import { GiGuitarBassHead } from "react-icons/gi";
 
-const NavBar = () => {
+const NavBar = () => { 
   return (
      
     <Navbar collapseOnSelect expand="lg" bg="light" variant="light" className="miEstilo">
